@@ -1,0 +1,41 @@
+.hero-banner.slick-dotted {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.hero-banner .banner-item,
+.hero-banner .banner-item > a {
+  display: block;
+  line-height: 0;
+}
+
+.hero-banner .slick-dots {
+  bottom: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.hero-banner .slick-dots > li {
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.hero-banner .slick-dots > li > button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid var(--color-ping-dark);
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+}
+
+.hero-banner .slick-dots > li.slick-active > button {
+  background-color: var(--color-ping-dark);
+}
+
+.hero-banner .slick-dots > li > button::before {
+  display: none;
+}

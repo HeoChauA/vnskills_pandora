@@ -1,0 +1,75 @@
+/* HEADER */
+.header-top {
+  background-color: var(--color-ping-dark);
+  color: var(--color-white);
+}
+
+/* Logo */
+#logo {
+  margin: 18px 0 16px 0;
+  display: block;
+}
+
+/* Main menu */
+.header .main-menu,
+.header .header-user-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .header-user-menu {
+  justify-content: flex-end;
+}
+
+.menu-main-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: center;
+}
+
+.main-menu ul.menu > li {
+  margin: 0 30px;
+}
+
+.main-menu ul.menu > li > a {
+  color: var(--color-black);
+  font-weight: 400;
+  position: relative;
+}
+
+.main-menu ul.menu > li > a::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  bottom: -7px;
+  left: 0;
+  right: 0;
+}
+
+.main-menu ul.menu > li > a:hover,
+.main-menu ul.menu > li.current-menu-item > a {
+  color: var(--color-ping-dark);
+  text-decoration: none;
+}
+
+.main-menu ul.menu > li > a:hover::after,
+.main-menu ul.menu > li.current-menu-item > a::after {
+  background-color: var(--color-ping-dark);
+}
+
+/* User menu */
+.user-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.user-menu-list .user-menu-item {
+  margin: 0 12px;
+}

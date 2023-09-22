@@ -1,0 +1,17 @@
+{
+  "name": "vnskills-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+      "@wordpress/scripts": "latest",
+      "ts-loader": "latest",
+      "typescript": "latest"
+  }
+}

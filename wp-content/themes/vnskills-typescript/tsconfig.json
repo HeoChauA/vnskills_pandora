@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "outDir": "./assets/public/",
+      "module": "commonjs",
+      "target": "es2016", // Set to ES6 for older browser support.
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,  
+      "strict": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "strictNullChecks": true
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: var(--color-white);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-ping-dark);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
